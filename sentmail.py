@@ -5,7 +5,7 @@ def sentmail(message):
     to_addr = '810108@stu.nknush.kh.edu.tw'
 
     smtpssl=smtplib.SMTP_SSL("smtp.gmail.com", 465)
-    smtpssl.login(from_addr, "ck12341234")
+    smtpssl.login(from_addr, "密碼")
 
     msg = 'Subject:Python Sent Mail \n'
     msg += message
